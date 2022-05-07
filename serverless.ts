@@ -5,7 +5,7 @@ import hello from '@functions/hello';
 const serverlessConfiguration: AWS = {
   service: 'aws-nodejs-typescript',
   frameworkVersion: '3',
-  plugins: ['serverless-esbuild'],
+  plugins: ['serverless-offline', 'serverless-esbuild'],
   provider: {
     name: 'aws',
     runtime: 'nodejs14.x',
