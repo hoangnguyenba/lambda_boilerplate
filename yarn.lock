@@ -834,12 +834,22 @@
   resolved "https://registry.yarnpkg.com/@middy/core/-/core-2.5.7.tgz#a1b3eff68881ff66b14b5051255791f7cbd3b471"
   integrity sha512-KX5Ud0SP+pol6PGkYtMCH4goHobs1XJo3OvEUwdiZUIjZgo56Q08nLu5N7Bs6P+FwGTQHA+hlQ3I5SZbfpO/jg==
 
+"@middy/error-logger@^2.5.7":
+  version "2.5.7"
+  resolved "https://registry.yarnpkg.com/@middy/error-logger/-/error-logger-2.5.7.tgz#7859dfc28d3b072966687ff7e84f667fd5b53b61"
+  integrity sha512-5V29jeo0q6gbjjiFI3MFmkkZe5eeR7VmVXM2Sw7teH8SOwZPvD5N3YJBgHwqj5MnkNO4PdA6XqgEt0J89dle+g==
+
 "@middy/http-json-body-parser@^2.5.3":
   version "2.5.7"
   resolved "https://registry.yarnpkg.com/@middy/http-json-body-parser/-/http-json-body-parser-2.5.7.tgz#966dccc77ec5a0a163efe731b7c7007adf821513"
   integrity sha512-6xysTWlK8s8QTVyQE9MfXR6fIY9h26uyiD1rM0mmYzGhLqWmamHgJvXzpBVXyRwOej451zSfjdSgKU66nxZmrw==
   dependencies:
     "@middy/util" "^2.5.7"
+
+"@middy/input-output-logger@^2.5.7":
+  version "2.5.7"
+  resolved "https://registry.yarnpkg.com/@middy/input-output-logger/-/input-output-logger-2.5.7.tgz#cdfe7e9dc2782ea839ce535e3814aae13a97be63"
+  integrity sha512-3saVjXptd6DYnybz6N1KQYB4SRzsP6a0EriMB709jcqHWkkYE1uHUbCLXDMtRAwUwPvBIi9IkZfL2OHx3vWCDA==
 
 "@middy/ssm@^2.5.7":
   version "2.5.7"

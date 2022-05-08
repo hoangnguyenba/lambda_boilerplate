@@ -17,7 +17,9 @@
   },
   "dependencies": {
     "@middy/core": "^2.5.3",
+    "@middy/error-logger": "^2.5.7",
     "@middy/http-json-body-parser": "^2.5.3",
+    "@middy/input-output-logger": "^2.5.7",
     "@middy/ssm": "^2.5.7"
   },
   "devDependencies": {
