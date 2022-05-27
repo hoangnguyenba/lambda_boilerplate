@@ -829,39 +829,34 @@
   resolved "https://registry.yarnpkg.com/@kwsites/promise-deferred/-/promise-deferred-1.1.1.tgz#8ace5259254426ccef57f3175bc64ed7095ed919"
   integrity sha512-GaHYm+c0O9MjZRu0ongGBRbinu8gVAMd2UZjji6jVmqKtZluZnptXGWhz1E8j8D2HJ3f/yMxKAUC0b+57wncIw==
 
-"@middy/core@^2.5.3":
-  version "2.5.7"
-  resolved "https://registry.yarnpkg.com/@middy/core/-/core-2.5.7.tgz#a1b3eff68881ff66b14b5051255791f7cbd3b471"
-  integrity sha512-KX5Ud0SP+pol6PGkYtMCH4goHobs1XJo3OvEUwdiZUIjZgo56Q08nLu5N7Bs6P+FwGTQHA+hlQ3I5SZbfpO/jg==
+"@middy/core@^3.0.3":
+  version "3.0.3"
+  resolved "https://registry.yarnpkg.com/@middy/core/-/core-3.0.3.tgz#603633872db77a608b2ba910100c919985b2e0c6"
+  integrity sha512-hykDL6iTjfiJpqFOtLzxn+TO9yI2SP4o9JnRU2ggYWYpH3XvNLXdB+5ClskBG56k2VlIbgCRx1jvycRwtRM2rg==
 
-"@middy/error-logger@^2.5.7":
-  version "2.5.7"
-  resolved "https://registry.yarnpkg.com/@middy/error-logger/-/error-logger-2.5.7.tgz#7859dfc28d3b072966687ff7e84f667fd5b53b61"
-  integrity sha512-5V29jeo0q6gbjjiFI3MFmkkZe5eeR7VmVXM2Sw7teH8SOwZPvD5N3YJBgHwqj5MnkNO4PdA6XqgEt0J89dle+g==
+"@middy/error-logger@^3.0.3":
+  version "3.0.3"
+  resolved "https://registry.yarnpkg.com/@middy/error-logger/-/error-logger-3.0.3.tgz#19ebaf154138ad935777b2a65660ade4051eee07"
+  integrity sha512-v0CevYABc4Z9+XDowrdyJLi3MERQnjcoyBtVmzDC2EOonmewDzK1/WQ+USuhg9QDTgZrrIsncO8/pU3KdW6ETQ==
 
-"@middy/http-json-body-parser@^2.5.3":
-  version "2.5.7"
-  resolved "https://registry.yarnpkg.com/@middy/http-json-body-parser/-/http-json-body-parser-2.5.7.tgz#966dccc77ec5a0a163efe731b7c7007adf821513"
-  integrity sha512-6xysTWlK8s8QTVyQE9MfXR6fIY9h26uyiD1rM0mmYzGhLqWmamHgJvXzpBVXyRwOej451zSfjdSgKU66nxZmrw==
+"@middy/http-json-body-parser@^3.0.3":
+  version "3.0.3"
+  resolved "https://registry.yarnpkg.com/@middy/http-json-body-parser/-/http-json-body-parser-3.0.3.tgz#734d495992c3e2e92d059cfeedc71af1fe482684"
+  integrity sha512-qMvov6dBzs7qRhNgasUfzH6s9lTFDLI5l3AWdp87Lsnsql65WQ6ST5o3n5+2kOV78cJ/0AErfz7m68jqTjSVPw==
   dependencies:
-    "@middy/util" "^2.5.7"
+    "@middy/util" "3.0.3"
 
-"@middy/input-output-logger@^2.5.7":
-  version "2.5.7"
-  resolved "https://registry.yarnpkg.com/@middy/input-output-logger/-/input-output-logger-2.5.7.tgz#cdfe7e9dc2782ea839ce535e3814aae13a97be63"
-  integrity sha512-3saVjXptd6DYnybz6N1KQYB4SRzsP6a0EriMB709jcqHWkkYE1uHUbCLXDMtRAwUwPvBIi9IkZfL2OHx3vWCDA==
-
-"@middy/ssm@^2.5.7":
-  version "2.5.7"
-  resolved "https://registry.yarnpkg.com/@middy/ssm/-/ssm-2.5.7.tgz#f3a65d863ee21b800f8e729d7666c8edf19bcae7"
-  integrity sha512-mpUxNJt6KNCD2uDi15LaU4qy4w08e/3+GBq3VUd/HPHJOcafUpex5Oa+wKqs52WlZ2k0wlM0eA4Z2cjs6eDe2g==
+"@middy/input-output-logger@^3.0.3":
+  version "3.0.3"
+  resolved "https://registry.yarnpkg.com/@middy/input-output-logger/-/input-output-logger-3.0.3.tgz#428ce8f3a745fb145008cd35cb7c5e2341bb7a75"
+  integrity sha512-0l3xGfclAMPSW4h27vVg7sZTJvrD7eibLgWuYvyJ8ob1p/b/dhs4R71DfTzYiUm5imp+4r4OFYe/3GXg1DRJGA==
   dependencies:
-    "@middy/util" "^2.5.7"
+    "@middy/util" "3.0.3"
 
-"@middy/util@^2.5.7":
-  version "2.5.7"
-  resolved "https://registry.yarnpkg.com/@middy/util/-/util-2.5.7.tgz#4a08ebb8ec04c3a62ec35007399b675f93119446"
-  integrity sha512-4CwEVfUyvF0n1qtEzrcrV56L7iQYyt6zChYQ9N5/uvQgAhdExLzOinW6ki1ZjTMgaMypqdHNUyDAEiAuNJLRUw==
+"@middy/util@3.0.3":
+  version "3.0.3"
+  resolved "https://registry.yarnpkg.com/@middy/util/-/util-3.0.3.tgz#50ec8d928ccffe82b6d991c2b7299b7d642f2254"
+  integrity sha512-0HbQspLv9+u6ubPds/fUCpOB3RyeyOlDWPsY3LKxJNz7AUYd+7GwZRA0v6xAveCS3OvA0JxuSs/pGZjcAhtAuw==
 
 "@nodelib/fs.scandir@2.1.5":
   version "2.1.5"
